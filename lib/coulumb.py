@@ -1,3 +1,6 @@
-def fc(q1,q2,r):
-	k=8.89*(10**9)
-	return k*q1*q2/(r**2)
+#/usr/bin/python
+
+K = 8.89*(10**9)
+
+def fc(q1, q2, r):
+	return K * q1 * q2 / (r**2)
